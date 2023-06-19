@@ -42,6 +42,8 @@ public class Calculate {
     }
 
 
+
+
     public int getNum1() {
         return num1;
     }
