@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent intent = new Intent(MainActivity.this, MultiplyActivity.class);
+                Intent intent = new Intent(MainActivity.this, ChooseActivity.class);
                 startActivity(intent);
                 finish();
 

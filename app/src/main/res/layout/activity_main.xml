@@ -25,13 +25,13 @@
         android:layout_height="141dp"
         android:layout_marginBottom="96dp"
         android:gravity="center"
-        android:text="Let's Practice Multiplication!"
+        android:text="Math is fun!"
         android:textColor="@color/teal_700"
         android:textSize="50sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 

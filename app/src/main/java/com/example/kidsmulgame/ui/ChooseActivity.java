@@ -29,7 +29,7 @@ public class ChooseActivity extends AppCompatActivity {
 
     private void extracted() {
         textView2 = findViewById(R.id.textView2);
-        textView3 = findViewById(R.id.textView3);
+      //  textView3 = findViewById(R.id.textView3);
         textView5 = findViewById(R.id.textView5);
         imageView = findViewById(R.id.imageView);
         imageView2 = findViewById(R.id.imageView2);
