@@ -15,6 +15,6 @@ A simple Math app for kids
   alt="Alt text"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
   <img
-  src="https://github.com/ShahEdJamhour/KidsMulGameblob/master/Screenshot_20230622_222925.png"
+  src="https://github.com/ShahEdJamhour/KidsMulGame/blob/master/Screenshot_20230622_222856.png"
   alt="Alt text"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
