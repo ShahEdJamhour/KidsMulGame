@@ -13,7 +13,7 @@
         android:id="@+id/imageView2"
         android:layout_width="173dp"
         android:layout_height="150dp"
-        android:layout_marginBottom="360dp"
+        android:layout_marginBottom="288dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.844"
@@ -25,24 +25,22 @@
         android:layout_width="206dp"
         android:layout_height="147dp"
         android:layout_marginStart="88dp"
-        android:layout_marginBottom="364dp"
+        android:layout_marginBottom="300dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/mul" />
 
-
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="0dp"
         android:layout_height="44dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="56dp"
         android:background="#FFC107"
         android:fontFamily="casual"
         android:gravity="center"
-        android:text="Which Game You would like to play?"
+        android:text="Which one You'd like to try?"
         android:textColor="#2196F3"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -51,18 +49,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <TextView
         android:id="@+id/textView5"
         android:layout_width="375dp"
         android:layout_height="65dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="256dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="184dp"
         android:text="Multiplication Streak  or    Shapes"
         android:textColor="#065697"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="108dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="500dp"
+        android:text="Dark Mode"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf=" parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="623dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

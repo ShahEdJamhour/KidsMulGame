@@ -46,7 +46,26 @@ public class ChooseActivity extends AppCompatActivity {
 
 
             }
-        });
+        }
+
+        );
+  /////////////////////////////////////////////////////////////
+        imageView2.setOnClickListener(new View.OnClickListener() {
+                                         @Override
+                                         public void onClick(View view) {
+                                             Intent intent = new Intent(ChooseActivity.this, ShapesActivity.class);
+                                             startActivity(intent);
+                                             finish();
+
+
+                                         }
+                                     });
+  /////////////////////////////////////////////////////////////
+
+
+
+
+
 
 
     }

@@ -1,8 +1,10 @@
 package com.example.kidsmulgame.ui;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -27,11 +29,15 @@ public class MultiplyActivity extends AppCompatActivity {
     private int status;
     private ImageView msg;
     private TextView msg2;
+    Button button ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mul);
+
+
+
 
         extracted();
         prog();
@@ -45,6 +51,7 @@ public class MultiplyActivity extends AppCompatActivity {
         incorrect = findViewById(R.id.incorrect);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         msg2=findViewById(R.id.msg2);
+        button= findViewById(R.id.button);
 
 
         next_equ.setOnClickListener(new View.OnClickListener() {
@@ -57,7 +64,16 @@ public class MultiplyActivity extends AppCompatActivity {
             }
         });
 
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MultiplyActivity.this, ChooseActivity.class);
+                startActivity(intent);
+                finish();
 
+
+            }
+        });
     }
 
 
@@ -144,4 +160,7 @@ public class MultiplyActivity extends AppCompatActivity {
 
         timer.schedule(task, 3000);//execute after 10 seconds
     }
+
+
+
 }
